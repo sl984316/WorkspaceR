@@ -1,0 +1,6 @@
+country : 국가정보
+beer_servings : beer 소비량
+spirit_servings : spirit 소비량
+wine_servings : wine 소비량
+total_litres_of_pure_alcohol : 총 알코올 소비량
+continent : 국가의 대륙정보

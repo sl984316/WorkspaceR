@@ -1,0 +1,13 @@
+pclass : Passenger Class, 승객 등급
+survived : 생존여부( 생존 1, 아닌경우 0 )
+name : 승객 이름
+sex : 승객 성별
+age : 승객 나이
+sibsp : 동승한 형제 또는 배우자 수
+parch : 동승한 부모 또는 자녀 수
+ticket : 티켓 번호
+fare : 승객 지불 요금
+cabin : 선실 이름
+embarked : 승선항( C : 쉘부르크, Q : 퀸즈타운, S : 사우스햄튼 )
+body : 사망자 확인 번호
+home.dest : 고향 / 목적지

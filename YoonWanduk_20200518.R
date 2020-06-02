@@ -33,7 +33,7 @@ table(season)
 barplot(table(season),main = '좋아하는 계절')
 
 # 4.season에 있는 값들에 대해 원그래프를 작성하여 출력하시오.
-pie(table(season),main = '좋아하는 계절')
+pie(table(season),main = '좋아하는 계절', col= c('orange','yellow','lightgreen','skyblue'))
 
 
 # 문3
@@ -82,7 +82,7 @@ summary(mtcars$wt)
 table(mtcars$cyl)
 
 # 4.앞에서 구한 도수분포표를 막대그래프로 출력하시오.
-barplot(mtcars$cyl, main = '실린더 수')
+barplot(table(mtcars$cyl), main = '실린더 수')
 
 # 5. 중량(wt)의 히스토그램을 출력하시오.
 hist(mtcars$wt, main='중량 별 자동차 종류',xlab='중량',
